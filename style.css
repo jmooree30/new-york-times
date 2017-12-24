@@ -1,0 +1,257 @@
+body{
+    margin:0;
+    padding:0;
+    min-height: :100%;
+}
+
+.container{
+    min-height:100%;
+    position:relative;
+    margin-left: 30px;
+    border:1px solid black;
+}
+
+.header{
+    text-align: center;
+    height:50px;
+    border:1px solid black;
+    position:fixed;
+    width:100%;
+    background: white;
+}
+
+.sectionbox{
+    position:fixed;
+    float:left;
+    width:90px;
+    height:14px;
+    z-index:1;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding:7px 9px;
+    border:1px solid black;
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),
+    inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+    border-bottom-color: #cecece;
+    font-weight: 700;
+    font-size: 0.6875rem;
+    background: white;
+}
+
+img[src="section.png"]{
+    float:left;
+}
+
+.sectiontext{
+    margin-top: 3px;
+}
+
+.headerfields{
+    float:left;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.headerfields2{
+    float:left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.title{
+    padding-right:350px;
+    padding-top: 15px;
+}
+
+.headerbuttons{
+    position: absolute;
+    top:10px;
+    right: 50px;
+    display: inline;
+
+}
+
+button{
+    -moz-box-sizing: border-box;
+    background-color: #6288A5;
+    border: 1px solid #4D7B9F;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 10px;
+    font-family: nyt-franklin, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7px 10px 6px;
+    text-transform: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.section2{
+    height:100px;
+    margin-top: 50px;
+    border:1px solid black;
+}
+
+.row{
+    border-right: 1px solid black;
+    margin:10px;
+    float:left;
+    height:80px;
+    width:230px;
+    background: white;
+}
+
+.topimages{
+    float:left;
+}
+
+.toptext{
+    font-size:12px;
+}
+
+.section3{
+    text-align: center;
+    margin:0 auto;
+    width:85%;
+    height: 250px;
+    padding:30px;
+    border-bottom: 1px solid black;
+}
+
+.section4{
+    height: 125px;
+    border-bottom: 1px solid gray;
+    width:90%;
+    margin:0 auto;
+}
+
+.section4text{
+    float:left;
+    margin-left: 65px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.section4text2{
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 65px;
+    font-size: 34px;
+}
+
+.section5{
+    margin:0 auto;
+    height:800px;
+    width:85%;
+}
+
+.section5text{
+    position: relative;
+    float:left;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
+
+.section5text2{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+    font-size: 14px;
+}
+
+.reference{
+    font-size: 10px;
+}
+
+.section6{
+    width:50%;
+    display:inline-block;
+}
+
+.section7{
+    display: inline;
+    float:right;
+    width:50%;
+    height:1325px;
+}
+
+.recentcomments{
+    padding-top: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section8{
+    border-bottom:1px solid black;
+    padding-top:10px;
+    width:80%;
+    height:800px;
+}
+
+img[src="inflation.png"]{
+    height:90%;
+    width:100%;
+}
+
+.section9{
+    width:50%;
+}
+
+.sattelitetext{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+    font-size: 12px;
+}
+
+.credits{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.section10{
+    display: inline-block;
+    border-top: 1px solid black;
+    width:70%;
+    height: 530px;
+}
+
+.section10pic{
+    display: inline-block;
+    text-align: center;
+    height:230px;
+    width: 250px;
+}
+
+img[img src="5.jpg"],img[img src="6.jpg"],img[img src="7.jpeg"],img[img src="8.jpg"],img[img src="9.jpg"],img[img src="10.jpg"]{
+    padding: 10px;
+}
+
+.end{
+    font-size: 12px;
+}
+
+.finalsection{
+    float:right;
+    width:30%;
+    padding-top: 50px;
+}
+
+li{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
